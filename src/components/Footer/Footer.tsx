@@ -37,13 +37,13 @@ export function Footer() {
           <img src={githubIcon} alt="GitHub" />
         </a>
 
-        <a
+        {/* <a
           href="https://discord.com/users/426120432991862784"
           target="_blank"
           rel="noreferrer"
         >
           <img src={discordIcon} alt="Discord" />
-        </a>
+        </a> */}
       </div>
     </Container>
   );
