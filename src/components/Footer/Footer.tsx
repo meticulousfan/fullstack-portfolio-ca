@@ -3,8 +3,8 @@ import { Container } from "./styles";
 import reactIcon from "../../assets/react-icon.svg";
 import linkedinIcon from "../../assets/linkedin.png";
 import githubIcon from "../../assets/github.png";
-import instagramIcon from "../../assets/instagram.png";
-import discordIcon from "../../assets/discord.png";
+// import instagramIcon from "../../assets/instagram.png";
+// import discordIcon from "../../assets/discord.png";
 
 export function Footer() {
   return (
@@ -15,8 +15,8 @@ export function Footer() {
       </a>
       <div>
         <p>
-          Este site foi feito com <img src={reactIcon} /> e muito{" "}
-          <span>❤️</span>
+          Este site foi feito com <img src={reactIcon} alt="reactIcon" /> e
+          muito <span>❤️</span>
         </p>
       </div>
 

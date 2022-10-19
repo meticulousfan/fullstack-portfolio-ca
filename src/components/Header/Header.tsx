@@ -1,7 +1,7 @@
 import { Container } from "./styles";
 import { BrowserRouter as Router } from "react-router-dom";
 import { NavHashLink, HashLink } from "react-router-hash-link";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 import Curriculo from "../../assets/Elijah Thomas_Canada_Full stack developer.pdf";
 export function Header() {

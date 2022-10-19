@@ -11,9 +11,6 @@ import image7 from "../../assets/images/po7.png";
 // style was imported in index.css
 // import "react-slideshow-image/dist/styles.css";
 const images = [image1, image2, image3, image4, image5, image6, image7];
-const imageUrls = [
-  "https://d274mjz6ji2f08.cloudfront.net/images/banner/rsz_home-banner.jpg?d=1351x550",
-];
 
 const zoomOutProperties = {
   duration: 5000,
@@ -33,7 +30,12 @@ export function Slideshow() {
         <div className="slide-container">
           <Zoom {...zoomOutProperties}>
             {images.map((each, index) => (
-              <img key={index} style={{ width: "100%" }} src={each} />
+              <img
+                key={index}
+                style={{ width: "100%" }}
+                src={each}
+                alt="slideImage"
+              />
             ))}
           </Zoom>
         </div>
