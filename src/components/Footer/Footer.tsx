@@ -1,22 +1,20 @@
 import { Container } from "./styles";
 
-import reactIcon from "../../assets/react-icon.svg";
 import linkedinIcon from "../../assets/linkedin.png";
 import githubIcon from "../../assets/github.png";
-import instagramIcon from "../../assets/instagram.png";
-import discordIcon from "../../assets/discord.png";
+// import instagramIcon from "../../assets/instagram.png";
+// import discordIcon from "../../assets/discord.png";
 
 export function Footer() {
   return (
     <Container className="footer">
       <a href="/" className="logo">
-        <span>J</span>
-        <span>Tulio</span>
+        <span>Elijah</span>
+        <span>Thomas</span>
       </a>
       <div>
         <p>
-          Este site foi feito com <img src={reactIcon} /> e muito{" "}
-          <span>❤️</span>
+          This site is made by <span>❤️</span>
         </p>
       </div>
 
@@ -37,13 +35,13 @@ export function Footer() {
           <img src={githubIcon} alt="GitHub" />
         </a>
 
-        <a
+        {/* <a
           href="https://discord.com/users/426120432991862784"
           target="_blank"
           rel="noreferrer"
         >
           <img src={discordIcon} alt="Discord" />
-        </a>
+        </a> */}
       </div>
     </Container>
   );

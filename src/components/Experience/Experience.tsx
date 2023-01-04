@@ -1,6 +1,4 @@
 import { Container } from "./styles";
-import githubIcon from "../../assets/github-icon.svg";
-import externalLinkIcon from "../../assets/external-link-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export function Experience() {
@@ -381,10 +379,10 @@ export function Experience() {
           </div>
         </ScrollAnimation>
 
-        {/* <ScrollAnimation animateIn="flipInX">
+        <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <svg
+              {/* <svg
                 width="50"
                 xmlns="http://www.w3.org/2000/svg"
                 role="img"
@@ -413,24 +411,60 @@ export function Experience() {
                 >
                   <img src={externalLinkIcon} alt="Visitar site" />
                 </a>
-              </div>
+              </div> */}
             </header>
             <div className="body">
-              <h3>Music Library</h3>
-              <p>
-                Uma interface para uma biblioteca de músicas, semelhante ao
-                Spotify.
-              </p>
+              <h3>PHP/Laravel Developer</h3>
+              <ul>
+                <li>
+                  Developed an internal web-based PHP ERP system using Laravel
+                  MVC framework to manage all the internal business aspects
+                </li>
+                <li>
+                  Built PHP applications to meet product requirements and
+                  satisfy use cases using MVC architecture, Laravel Framework
+                  and Drupal CMS
+                </li>
+                <li>
+                  Developed user interface using PHP, Laravel, bootstrap, AJAX,
+                  HTML, CSS
+                </li>
+                <li>
+                  Designed and coded application components using PHP, MySQL,
+                  AngularJS, JSON, REST and Bootstrap
+                </li>
+                <li>
+                  Created web-based calculators using PHP, jQuery, and Ajax to
+                  show return on investment and savings. These calculators
+                  included custom graph integration and localization with
+                  translations and currency conversions.
+                </li>
+                <li>
+                  Developed internal Laravel application to track customer's
+                  shipment history and to customize every shipment to individual
+                  customers based on their profile selections and previous
+                  orders
+                </li>
+                <li>
+                  Developed REST API using Laravel which servers the angular
+                  application
+                </li>
+              </ul>
             </div>
             <footer>
               <ul className="tech-list">
                 <li>Html</li>
-                <li>Css</li>
-                <li>JavaSript</li>
+                <li>CSS</li>
+                <li>PHP</li>
+                <li>Laravel</li>
+                <li>MySQL</li>
+                <li>Angular</li>
+                <li>Ajax</li>
+                <li>JQuery</li>
               </ul>
             </footer>
           </div>
-        </ScrollAnimation> */}
+        </ScrollAnimation>
       </div>
     </Container>
   );
