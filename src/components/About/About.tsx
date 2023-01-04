@@ -22,13 +22,13 @@ export function About() {
             having a passion for great software product, user friendly
             interfaces and good user experience. Considers him-self a
             self-motivated, fast-learner and problem-solver. Worked with various
-            Canada companies in the past and made great contributions to every
-            stage of the development. He has been focusing on designing and
-            implementing full stack application using advanced web/mobile
-            technologies and he doesn’t hesitate to work on the most challenging
-            part of the project to make my unique contribution. He always thinks
-            about the application from the user’s point and can advise on the
-            business side of the project.
+            companies in the past and made great contributions to every stage of
+            the development. He has been focusing on designing and implementing
+            full stack application using advanced web/mobile technologies and he
+            doesn’t hesitate to work on the most challenging part of the project
+            to make my unique contribution. He always thinks about the
+            application from the user’s point and can advise on the business
+            side of the project.
           </p>
         </ScrollAnimation>
         <ScrollAnimation
