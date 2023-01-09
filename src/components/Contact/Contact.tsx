@@ -16,10 +16,10 @@ export function Contact() {
       <div className="contacts">
         <div>
           <img src={emailIcon} alt="Email" />
-          <a href="mailto:fayettebetty@gmail.com">fayettebetty@gmail.com</a>
+          <a href="mailto:elithofan@gmail.com">elithofan@gmail.com</a>
         </div>
         <div>
-          <img src={phoneIcon} alt="Email" />
+          <img src={phoneIcon} alt="phone" />
           <a href="tel:+15097792432">(1) 509-7792-432</a>
         </div>
       </div>
